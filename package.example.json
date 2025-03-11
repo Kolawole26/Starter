@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "infisical run --env=dev --path=/ETS -- nuxt dev",
+    "dev": "infisical run --env=dev --path=/ETS -- nuxt dev",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  }
+}

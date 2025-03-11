@@ -1,0 +1,83 @@
+  /* assets/css/colors.css */
+
+  :root {
+    /* Primary Colors */
+    --primary-50: 253 248 233;  /* #FDF8E9 */
+    --primary-75: 249 235 189;  /* #F9EBBD */
+    --primary-100: 245 222 146; /* #F5DE92 */
+    --primary-200: 241 208 102; /* #F1D066 */
+    --primary-300: 235 188 36;  /* #EBBC24 */
+    --primary-400: 188 150 29;  /* #BC961D */
+    --primary-500: 141 113 22;  /* #8D7116 */
+  
+    /* Neutral Colors */
+    --neutral-10: 255 255 255;  /* #FFFFFF */
+    --neutral-20: 250 250 250;  /* #FAFAFA */
+    --neutral-30: 245 245 245;  /* #F5F5F5 */
+    --neutral-50: 232 233 233;  /* #E8E9E9 */
+    --neutral-100: 225 225 225; /* #E1E1E1 */
+    --neutral-200: 151 152 154; /* #97989A */
+    --neutral-300: 58 58 58;    /* #3A3A3A */
+    --neutral-500: 18 18 18;    /* #121212 */
+  
+    /* Success Colors */
+    --success-50: 233 248 238;  /* #E9F8EE */
+    --success-75: 164 226 187;  /* #A4E2BB */
+    --success-100: 126 214 158; /* #7ED69E */
+    --success-200: 70 196 116;  /* #46C474 */
+    --success-300: 32 184 88;   /* #20B858 */
+    --success-400: 22 129 62;   /* #16813E */
+    --success-500: 20 112 54;   /* #147036 */
+  
+    /* Danger Colors */
+    --danger-50: 253 231 231;   /* #FDE7E7 */
+    --danger-75: 248 158 158;   /* #F89E9E */
+    --danger-100: 246 118 118;  /* #F67676 */
+    --danger-200: 242 58 58;    /* #F23A3A */
+    --danger-300: 239 18 18;    /* #EF1212 */
+    --danger-400: 167 13 13;    /* #A70D0D */
+    --danger-500: 146 11 11;    /* #920B0B */
+  
+    /* Warning Colors */
+    --warning-50: 255 249 230;  /* #FFF9E6 */
+    --warning-75: 255 229 151;  /* #FFE597 */
+    --warning-100: 255 218 108; /* #FFDA6C */
+    --warning-200: 255 203 44;  /* #FFCB2C */
+    --warning-300: 255 192 1;   /* #FFC001 */
+    --warning-400: 179 134 1;   /* #B38601 */
+    --warning-500: 156 117 1;   /* #9C7501 */
+  
+    /* Info Colors */
+    --info-50: 231 246 253;    /* #E7F6FD */
+    --info-75: 156 218 246;    /* #9CDAF6 */
+    --info-100: 115 203 242;   /* #73CBF2 */
+    --info-200: 55 180 237;    /* #37B4ED */
+    --info-300: 14 165 233;    /* #0EA5E9 */
+    --info-400: 10 115 163;    /* #0A73A3 */
+    --info-500: 9 101 142;     /* #09658E */
+  }
+  
+  /* Dark mode overrides */
+  .dark {
+    /* Primary Colors (Dark Mode) */
+    --primary-50: 141 113 22;   /* #8D7116 - Darkest yellow */
+    --primary-75: 188 150 29;   /* #BC961D */
+    --primary-100: 235 188 36;  /* #EBBC24 */
+    --primary-200: 241 208 102; /* #F1D066 */
+    --primary-300: 235 188 36;  /* #EBBC24 */
+    --primary-400: 249 235 189; /* #F9EBBD */
+    --primary-500: 253 248 233; /* #FDF8E9 - Lightest yellow */
+    
+    /* Neutral Colors (Dark Mode) */
+    --neutral-10: 18 18 18;     /* #121212 - Darkest gray */
+    --neutral-20: 58 58 58;     /* #3A3A3A */
+    --neutral-30: 151 152 154;  /* #97989A */
+    --neutral-50: 225 225 225;  /* #E1E1E1 */
+    --neutral-100: 232 233 233; /* #E8E9E9 */
+    --neutral-200: 245 245 245; /* #F5F5F5 */
+    --neutral-300: 250 250 250; /* #FAFAFA */
+    --neutral-500: 255 255 255; /* #FFFFFF - White */
+  
+    /* Success, Danger, Warning, and Info colors can stay the same or be slightly adjusted */
+  }
+  
